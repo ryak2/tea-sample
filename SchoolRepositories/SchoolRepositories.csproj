@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolContracts\SchoolContracts.csproj" />
+    <ProjectReference Include="..\SchoolModel\SchoolModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+        <UserSecretsId>0c71d8b1-7108-46df-8524-838fa225b9f1</UserSecretsId>
+  </PropertyGroup>
+
+</Project>
