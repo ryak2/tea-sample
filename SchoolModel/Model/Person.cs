@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SchoolModel
 {
@@ -16,6 +14,7 @@ namespace SchoolModel
             Discriminator = PersonDiscriminatorValues.Student;
         }
 
+        [Key]
         public int PersonId { get; set; }
 
         [Required]

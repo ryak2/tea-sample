@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SchoolModel
 {
@@ -12,6 +10,7 @@ namespace SchoolModel
             Name = "";
         }
 
+        [Key]
         public int DepartmentId { get; set; }
         
         [Required]
